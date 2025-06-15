@@ -29,10 +29,10 @@ export const mcwReportEmbed = (): object => {
                         "divider": true,
                         "spacing": 1
                     },
-                    {
-                        type: 10,
-                        content: `# Still needs to be implemented`
-                    }
+                    // {
+                    //     type: 10,
+                    //     content: `# Still needs to be implemented`
+                    // }
                 ]
             }
         ]
