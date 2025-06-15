@@ -1,6 +1,6 @@
 import { env } from 'cloudflare:workers'
-// import { Hono } from 'hono'
-import { Hono } from 'hono/quick';
+import { Hono } from 'hono'
+// import { Hono } from 'hono/quick';
 import * as util from './utils'
 import { interactions } from './interactions'
 import { APIInteraction, InteractionResponseType, InteractionType, Routes } from 'discord-api-types/v10';
